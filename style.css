@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Work+Sans:wght@400;600&display=swap');
+
+:root {
+    --rbyte: hsl(172, 12%, 8%);
+    --grles: hsl(172, 12%, 13%);
+    --feuhm: hsl(172, 8%, 88%);
+    --xhlcd: hsl(172, 8%, 60%);
+    --jdajr: hsl(172, 62%, 65%);
+    --ydvcg: hsl(292, 70%, 65%);
+    --plozv: hsl(172, 12%, 18%);
+    --oaqdk: 6px;
+    --wgugc: none;
+    --auyrq: 'Montserrat', sans-serif;
+    --mfmkp: 'Work Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--rbyte);
+    color: var(--feuhm);
+    font-family: var(--mfmkp);
+    line-height: 1.7;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+a {
+    color: var(--jdajr);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: var(--ydvcg);
+    text-decoration: underline;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    background: var(--grles);
+    border: 1px solid var(--plozv);
+    border-radius: var(--oaqdk);
+    padding: 40px;
+    box-shadow: var(--wgugc);
+    margin: auto;
+}
+
+h1, h2, h3 {
+    font-family: var(--auyrq);
+    margin-bottom: 20px;
+    color: var(--feuhm);
+}
+
+h1 {
+    font-size: 2.5rem;
+    border-bottom: 3px solid var(--jdajr);
+    padding-bottom: 12px;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1.05rem;
+}
+
+ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+input, textarea, button {
+    padding: 12px;
+    border: 1px solid var(--plozv);
+    border-radius: var(--oaqdk);
+    font-family: var(--mfmkp);
+    font-size: 1rem;
+    background: var(--rbyte);
+    color: var(--feuhm);
+}
+
+button {
+    background: var(--jdajr);
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+button:hover {
+    background: var(--ydvcg);
+}
+
+footer {
+    margin-top: 40px;
+    border-top: 1px solid var(--plozv);
+    padding-top: 20px;
+    font-size: 0.9rem;
+    color: var(--xhlcd);
+    text-align: center;
+}
