@@ -1,0 +1,9 @@
+# Hq makeup 976 Hub
+> A modern financial advisors resource based in Seattle, WA.
+
+## Site Index
+- [Home Page](/index.html): Portal overview for our services.
+- [About Us](/about.html): Our background and history.
+- [Contact](/contact.html): Office locations and communication form.
+## Publications
+- [Scaling Processes for Online Agencies](/scaling-processes-for-online-agencies.html)
