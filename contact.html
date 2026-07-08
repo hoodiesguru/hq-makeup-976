@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Hq makeup 976 Hub</title>
+    <meta name="description" content="Have questions about our financial advisors services? Get in touch with our Seattle office.">
+    <meta name="geo.region" content="US-WA" />
+    <meta name="geo.placename" content="Seattle" />
+    <meta name="geo.position" content="47.6062;-122.3321" />
+    <meta name="ICBM" content="47.6062, -122.3321" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <div class="container" style="max-width: 800px;">
+            <nav style="display: flex; gap: 15px; margin-bottom: 25px; border-bottom: 1px solid var(--plozv); padding-bottom: 10px; overflow-x: auto; flex-wrap: wrap;">
+            <a href="index.html">Home</a>
+            <a href="scaling-processes-for-online-agencies.html">Pillar Post</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+            <a href="privacy.html">Privacy</a>
+        </nav>
+            <h1>Contact Us</h1>
+            <p>Have questions about our financial advisors services? Get in touch with our Seattle office.</p>
+            <p><strong>Phone:</strong> +1-206-555-0155<br><strong>Address:</strong> Seattle, WA, 98101</p>
+            <form action=/send-message method="POST">
+                <input type="text" name="name" placeholder="{loc_data['contact_name_placeholder']}" required>
+                <input type="email" name="email" placeholder="{loc_data['contact_email_placeholder']}" required>
+                <textarea name="message" placeholder="{loc_data['contact_msg_placeholder']}" rows="5" required></textarea>
+                <button type="submit">{loc_data['contact_submit']}</button>
+            </form>
+            <footer>
+                <p>&copy; {time.strftime('%Y')} {biz_name}. {loc_data['rights_reserved']}</p>
+            </footer>
+        </div>
+        
+</body>
+</html>
